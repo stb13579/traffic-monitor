@@ -1,0 +1,17 @@
+{
+  "name": "traffic-monitor",
+  "version": "1.0.0",
+  "description": "quick script to monitor GitHub repo traffic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
